@@ -1,0 +1,20 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #1a1a1a;
+}
+
+.gradient-text {
+    background-image: -webkit-linear-gradient(315deg, #ff6aeb 25%, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.pink {
+    color: #ff6aeb;
+}
+
